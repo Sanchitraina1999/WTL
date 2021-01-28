@@ -358,3 +358,74 @@ Caused by: java.net.BindException: Address already in use
 28-Jan-2021 11:25:34.836 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
 28-Jan-2021 11:25:34.837 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
 28-Jan-2021 11:25:34.838 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Jan-2021 11:28:27.755 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+28-Jan-2021 11:28:27.766 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+28-Jan-2021 11:28:27.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+28-Jan-2021 11:28:27.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Jan-2021 11:28:27.767 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.8.0-38-generic
+28-Jan-2021 11:28:27.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Jan-2021 11:28:27.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+28-Jan-2021 11:28:27.768 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.9.1+1-Ubuntu-0ubuntu1.20.04
+28-Jan-2021 11:28:27.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+28-Jan-2021 11:28:27.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24
+28-Jan-2021 11:28:27.769 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24
+28-Jan-2021 11:28:27.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Jan-2021 11:28:27.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Jan-2021 11:28:27.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24/conf/logging.properties
+28-Jan-2021 11:28:27.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Jan-2021 11:28:27.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Jan-2021 11:28:27.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Jan-2021 11:28:27.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Jan-2021 11:28:27.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24
+28-Jan-2021 11:28:27.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24
+28-Jan-2021 11:28:27.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24/temp
+28-Jan-2021 11:28:27.799 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Jan-2021 11:28:27.901 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Jan-2021 11:28:28.022 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Jan-2021 11:28:28.053 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Jan-2021 11:28:28.060 SEVERE [main] org.apache.catalina.core.StandardService.initInternal Failed to initialize connector [Connector[AJP/1.3-8009]]
+ org.apache.catalina.LifecycleException: Failed to initialize component [Connector[AJP/1.3-8009]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:112)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:549)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:875)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:621)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:644)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:309)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:492)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:995)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:107)
+	... 12 more
+Caused by: java.net.BindException: Address already in use
+	at java.base/sun.nio.ch.Net.bind0(Native Method)
+	at java.base/sun.nio.ch.Net.bind(Net.java:455)
+	at java.base/sun.nio.ch.Net.bind(Net.java:447)
+	at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:227)
+	at java.base/sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:80)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1082)
+	at org.apache.tomcat.util.net.AbstractJsseEndpoint.init(AbstractJsseEndpoint.java:267)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:581)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:993)
+	... 13 more
+
+28-Jan-2021 11:28:28.064 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1987 ms
+28-Jan-2021 11:28:28.277 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Jan-2021 11:28:28.277 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+28-Jan-2021 11:28:28.304 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24/webapps/docs]
+28-Jan-2021 11:28:29.197 WARNING [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [131] milliseconds.
+28-Jan-2021 11:28:29.236 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24/webapps/docs] has finished in [933] ms
+28-Jan-2021 11:28:29.236 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24/webapps/ROOT]
+28-Jan-2021 11:28:29.265 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24/webapps/ROOT] has finished in [29] ms
+28-Jan-2021 11:28:29.265 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24/webapps/host-manager]
+28-Jan-2021 11:28:29.389 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24/webapps/host-manager] has finished in [124] ms
+28-Jan-2021 11:28:29.389 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24/webapps/manager]
+28-Jan-2021 11:28:29.428 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24/webapps/manager] has finished in [38] ms
+28-Jan-2021 11:28:29.428 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/imsotired/Desktop/TE/WTL/tomcat_installation/apache-tomcat-8.5.24/webapps/examples]
