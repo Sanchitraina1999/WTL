@@ -154,12 +154,9 @@ void power(ll A[][N], ll dim, ll n)
 int32_t main()
 {
     FAST;
-#ifndef ONLINE_JUDGE
-    freopen("io/input.txt", "r", stdin);
-    freopen("io/output.txt", "w", stdout);
-#endif
-    TC
     {
+        ll n=100;
+        forn(i,0,n)cout<<"Iski maa ki chut\t";
     }
     return 0;
 }
