@@ -4,7 +4,7 @@
     <book>
         <title>MATHEMATICS-1</title>
         <author>R.D. SHARMA-1</author>
-        <publisher>DHANPAT RAI PUBLICATIONS</publisher>
+        <publisher>DHANPAT RAI PUBLICATIONS-1</publisher>
         <price>450</price>
         <year>2018</year>
         <isbn>9788193663011</isbn>
@@ -12,33 +12,33 @@
     <book>
         <title>MATHEMATICS-2</title>
         <author>R.D. SHARMA-2</author>
-        <publisher>DHANPAT RAI PUBLICATIONS</publisher>
+        <publisher>DHANPAT RAI PUBLICATIONS-2</publisher>
         <price>450</price>
         <year>2018</year>
-        <isbn>9788193663011</isbn>
+        <isbn>9788193011</isbn>
     </book>
     <book>
         <title>MATHEMATICS-3</title>
         <author>R.D. SHARMA-3</author>
-        <publisher>DHANPAT RAI PUBLICATIONS</publisher>
+        <publisher>DHANPAT RAI PUBLICATIONS-3</publisher>
         <price>450</price>
         <year>2018</year>
-        <isbn>9788193663011</isbn>
+        <isbn>97193663011</isbn>
     </book>
     <book>
         <title>MATHEMATICS-4</title>
         <author>R.D. SHARMA-4</author>
-        <publisher>DHANPAT RAI PUBLICATIONS</publisher>
+        <publisher>DHANPAT RAI PUBLICATIONS-4</publisher>
         <price>450</price>
         <year>2018</year>
-        <isbn>9788193663011</isbn>
+        <isbn>97881933011</isbn>
     </book>
     <book>
         <title>MATHEMATICS-5</title>
         <author>R.D. SHARMA-5</author>
-        <publisher>DHANPAT RAI PUBLICATIONS</publisher>
+        <publisher>DHANPAT RAI PUBLICATIONS-5</publisher>
         <price>450</price>
         <year>2018</year>
-        <isbn>9788193663011</isbn>
+        <isbn>97881936611</isbn>
     </book>
 </library>
