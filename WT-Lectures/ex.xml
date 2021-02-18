@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="libstyle.xsl"?>
 <library>
+<book>
+<title></title>
+<author></author>
+<publisher></publisher>
+<price></price>
+<year></year>
+<isbn></isbn>
+</book>
 </library>
