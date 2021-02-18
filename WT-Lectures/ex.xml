@@ -9,12 +9,4 @@
         <year>2018</year>
         <isbn>9788193663011</isbn>
     </book>
-    <book>
-        <title>MATHEMATICS</title>
-        <author>R.D. SHARMA</author>
-        <publisher>DHANPAT RAI PUBLICATIONS</publisher>
-        <price>450</price>
-        <year>2018</year>
-        <isbn>9788193663011</isbn>
-    </book>
 </library>
