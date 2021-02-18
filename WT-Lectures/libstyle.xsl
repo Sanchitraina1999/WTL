@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:template match="/>
+<xsl:template match="/">
 <html>
+<body>
     <h2>PICT Library</h2>
     <table border="1">
         <tr bgcolor="green">
@@ -16,6 +17,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </tr>
         </xsl:for-each select="library/book">
     </table>
+</body>
 </html>
 </xsl:template>
 </xsl:stylesheet>
