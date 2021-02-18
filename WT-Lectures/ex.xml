@@ -2,40 +2,40 @@
 <?xml-stylesheet type="text/xsl" href="libstyle.xsl"?>
 <library>
     <book>
-        <title>MATHEMATICS</title>
-        <author>R.D. SHARMA</author>
+        <title>MATHEMATICS-1</title>
+        <author>R.D. SHARMA-1</author>
         <publisher>DHANPAT RAI PUBLICATIONS</publisher>
         <price>450</price>
         <year>2018</year>
         <isbn>9788193663011</isbn>
     </book>
     <book>
-        <title>MATHEMATICS</title>
-        <author>R.D. SHARMA</author>
+        <title>MATHEMATICS-2</title>
+        <author>R.D. SHARMA-2</author>
         <publisher>DHANPAT RAI PUBLICATIONS</publisher>
         <price>450</price>
         <year>2018</year>
         <isbn>9788193663011</isbn>
     </book>
     <book>
-        <title>MATHEMATICS</title>
-        <author>R.D. SHARMA</author>
+        <title>MATHEMATICS-3</title>
+        <author>R.D. SHARMA-3</author>
         <publisher>DHANPAT RAI PUBLICATIONS</publisher>
         <price>450</price>
         <year>2018</year>
         <isbn>9788193663011</isbn>
     </book>
     <book>
-        <title>MATHEMATICS</title>
-        <author>R.D. SHARMA</author>
+        <title>MATHEMATICS-4</title>
+        <author>R.D. SHARMA-4</author>
         <publisher>DHANPAT RAI PUBLICATIONS</publisher>
         <price>450</price>
         <year>2018</year>
         <isbn>9788193663011</isbn>
     </book>
     <book>
-        <title>MATHEMATICS</title>
-        <author>R.D. SHARMA</author>
+        <title>MATHEMATICS-5</title>
+        <author>R.D. SHARMA-5</author>
         <publisher>DHANPAT RAI PUBLICATIONS</publisher>
         <price>450</price>
         <year>2018</year>
