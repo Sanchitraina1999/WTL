@@ -9,6 +9,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <tr bgcolor="green">
             <th align="left">Title</th>
             <th align="left">Author</th>
+            <th align="left">Publisher</th>
+            <th align="left">Price</th>
+            <th align="left">Year</th>
+            <th align="left">ISBN</th>
         </tr>
         <xsl:for-each select="library/book">
         <tr>
