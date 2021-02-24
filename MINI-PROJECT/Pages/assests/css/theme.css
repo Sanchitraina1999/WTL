@@ -7868,12 +7868,3 @@ html {
     }
     .brand > span { display: none; }
 }
-
-@media (min-width: 780px) {
-
-    /* Pull out the header and footer */
-    .lg-fixed-bottom {
-      position: fixed;
-      bottom: 0;
-    }
-  }
