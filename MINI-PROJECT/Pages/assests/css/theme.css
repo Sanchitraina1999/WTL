@@ -7872,7 +7872,7 @@ html {
 @media (min-width: 1200px) {
 
     /* Pull out the header and footer */
-    .mastfoot {
+    .lg-fixed-bottom {
       position: fixed;
       bottom: 0;
     }
