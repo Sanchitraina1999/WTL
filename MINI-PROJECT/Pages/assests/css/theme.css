@@ -7868,3 +7868,12 @@ html {
     }
     .brand > span { display: none; }
 }
+
+@media (min-width: 1200px) {
+
+    /* Pull out the header and footer */
+    .mastfoot {
+      position: fixed;
+      bottom: 0;
+    }
+  }
