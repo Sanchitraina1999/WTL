@@ -7862,7 +7862,7 @@ html {
     background-color: #000000;
 }
 
-@media screen and (max-width: 600PX) {
+@media screen and (max-width: 600px) {
     .brand[data-abbr]::after { 
         content: attr(data-abbr); 
     }
