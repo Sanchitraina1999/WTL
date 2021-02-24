@@ -7869,7 +7869,7 @@ html {
     .brand > span { display: none; }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
     /* Pull out the header and footer */
     .lg-fixed-bottom {
