@@ -7861,3 +7861,10 @@ html {
 .bg-black{
     background-color: #000000;
 }
+
+@media screen and (max-width: 500px) {
+    .brand[data-abbr]::after { 
+        content: attr(data-abbr); 
+    }
+    .brand > span { display: none; }
+}
