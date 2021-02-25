@@ -21,8 +21,11 @@
             document.getElementById("answer").innerHTML = "The answer is : " + answer;
         }
         else if (operation == 3) {
-            if(num2===0)
-            document.getElementById("answer").innerHTML = "The answer is : " + answer;
+            if (num2 === 0) {
+                document.addClass("text-warning");
+                document.getElementById("answer").innerHTML = "The answer is : " + answer;
+                document.removeClass("text-warning");
+            }
             var answer = num1 / num2;
             document.getElementById("answer").innerHTML = "The answer is : " + answer;
         }
