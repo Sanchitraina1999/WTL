@@ -18,15 +18,17 @@
         }
         else if (operation == 2) {
             var answer = num1 - num2;
-            return answer;
+            document.getElementById("answer").innerHTML = "The answer is : " + answer;
         }
         else if (operation == 3) {
+            if(num2===0)
+            document.getElementById("answer").innerHTML = "The answer is : " + answer;
             var answer = num1 / num2;
-            return answer;
+            document.getElementById("answer").innerHTML = "The answer is : " + answer;
         }
         else {
             var answer = num1 * num2;
-            return answer;
+            document.getElementById("answer").innerHTML = "The answer is : " + answer;
         }
     </script>
 
