@@ -8,16 +8,16 @@
         <publisher>Whey publications</publisher>
         <price>499</price>
         <year>2004</year>
-        <isbn>9788193663011</isbn>
+        <isbn>978813211763011</isbn>
     </book>
     <!-- 7 -->
     <book>
         <title>HTML, XHTMML &amp; CSS Bible</title>
         <author>Steven M. Schafer, Wiley</author>
         <publisher>Whey publications</publisher>
-        <price>499</price>
-        <year>2004</year>
-        <isbn>9788193663011</isbn>
+        <price>299</price>
+        <year>2002</year>
+        <isbn>978819123763011</isbn>
     </book>
     <!-- 8 -->
     <book>
@@ -26,6 +26,6 @@
         <publisher>Whey publications</publisher>
         <price>399</price>
         <year>2005</year>
-        <isbn>9788193663011</isbn>
+        <isbn>978819321763011</isbn>
     </book>
 </library>
