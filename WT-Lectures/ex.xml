@@ -10,6 +10,16 @@
         <year>2004</year>
         <isbn>9788193663011</isbn>
     </book>
+    <!-- 7 -->
+    <book>
+        <title>HTML, X</title>
+        <author>Ralph Moseley &amp; M.T. Savaliya</author>
+        <publisher>Whey publications</publisher>
+        <price>499</price>
+        <year>2004</year>
+        <isbn>9788193663011</isbn>
+    </book>
+    <!-- 8 -->
     <book>
         <title>Full Stack JavaScript Development with MEAN</title>
         <author>Adam Bretz &amp; Colin J Ihrig</author>
