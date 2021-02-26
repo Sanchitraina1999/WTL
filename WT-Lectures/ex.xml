@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="libstyle.xsl"?>
 <library>
+    <!-- 1 -->
     <book>
         <title>Developing Web Applications</title>
         <author>Ralph Moseley &amp; M.T. Savaliya</author>
@@ -13,8 +14,8 @@
         <title>Full Stack JavaScript Development with MEAN</title>
         <author>Adam Bretz &amp; Colin J Ihrig</author>
         <publisher>Whey publications</publisher>
-        <price>499</price>
-        <year>2004</year>
+        <price>399</price>
+        <year>2005</year>
         <isbn>9788193663011</isbn>
     </book>
 </library>
