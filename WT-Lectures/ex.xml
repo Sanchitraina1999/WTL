@@ -10,8 +10,8 @@
         <isbn>9788193663011</isbn>
     </book>
     <book>
-        <title></title>
-        <author>Ralph Moseley &amp; M.T. Savaliya</author>
+        <title>Full Stack JavaScript Development with MEAN</title>
+        <author></author>
         <publisher>Whey publications</publisher>
         <price>499</price>
         <year>2004</year>
