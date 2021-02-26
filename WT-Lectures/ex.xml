@@ -10,6 +10,15 @@
         <year>2004</year>
         <isbn>978813211763011</isbn>
     </book>
+    <!-- 6 -->
+    <book>
+        <title>Beginning JavaScript</title>
+        <author>Steven M. Schafer, Wiley</author>
+        <publisher>Whey publications</publisher>
+        <price>299</price>
+        <year>2002</year>
+        <isbn>978819123763011</isbn>
+    </book>
     <!-- 7 -->
     <book>
         <title>HTML, XHTMML &amp; CSS Bible</title>
