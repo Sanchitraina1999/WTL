@@ -11,6 +11,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 </xsl:template>
 <xsl:template match="book">
 <p>
+<xsl:apply-templates select="title">
+</p>
     <table border="1">
         <tr bgcolor="green">
             <th align="left">Title</th>
