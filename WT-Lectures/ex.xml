@@ -10,6 +10,15 @@
         <year>2004</year>
         <isbn>978813211763011</isbn>
     </book>
+    <!-- 1 -->
+    <book>
+        <title>Developing Web Applications</title>
+        <author>Ralph Moseley &amp; M.T. Savaliya</author>
+        <publisher>Whey publications</publisher>
+        <price>499</price>
+        <year>2004</year>
+        <isbn>978813211763011</isbn>
+    </book>
     <!-- 5 -->
     <book>
         <title>XML Step By Step</title>
