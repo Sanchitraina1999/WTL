@@ -5,6 +5,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <html>
 <body>
     <h2>PICT Library</h2>
+    <xsl:apply-template/>
+
     <table border="1">
         <tr bgcolor="green">
             <th align="left">Title</th>
