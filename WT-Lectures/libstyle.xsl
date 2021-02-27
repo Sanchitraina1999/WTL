@@ -26,6 +26,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <td><xsl:value-of select="year"/></td>
             <td><xsl:value-of select="isbn"/></td>
         </tr>
+        </xsl: if>
         </xsl:for-each>
     </table>
 </body>
