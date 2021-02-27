@@ -10,7 +10,25 @@
         <year>2004</year>
         <isbn>978813211763011</isbn>
     </book>
-    <!-- 1 -->
+    <!-- 2 -->
+    <book>
+        <title>Developing Web Applications</title>
+        <author>Ralph Moseley &amp; M.T. Savaliya</author>
+        <publisher>Whey publications</publisher>
+        <price>499</price>
+        <year>2004</year>
+        <isbn>978813211763011</isbn>
+    </book>
+    <!-- 3 -->
+    <book>
+        <title>Developing Web Applications</title>
+        <author>Ralph Moseley &amp; M.T. Savaliya</author>
+        <publisher>Whey publications</publisher>
+        <price>499</price>
+        <year>2004</year>
+        <isbn>978813211763011</isbn>
+    </book>
+    <!-- 4 -->
     <book>
         <title>Developing Web Applications</title>
         <author>Ralph Moseley &amp; M.T. Savaliya</author>
