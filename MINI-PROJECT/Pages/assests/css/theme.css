@@ -7870,6 +7870,6 @@ html {
 }
 
 .popup{
-    height:500px;
-    position: abs;
+    z-index:1;
+    position: absolute;
 }
