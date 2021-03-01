@@ -7869,11 +7869,3 @@ html {
     .brand > span { display: none; }
 }
 
-body :not(#blurred){
-    filter: blur(.76px);    
-}
-
-#unblurred #box {
-    border:2px solid black; 
-    filter: blur(0px);
-}
