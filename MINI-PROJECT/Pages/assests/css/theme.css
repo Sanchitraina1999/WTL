@@ -7870,5 +7870,5 @@ html {
 }
 
 body :not(#unblurred){
-    filter: blur(2px);    
+    filter: blur(.76px);    
 }
