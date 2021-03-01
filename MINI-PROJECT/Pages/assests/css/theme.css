@@ -7869,3 +7869,6 @@ html {
     .brand > span { display: none; }
 }
 
+.popup{
+    z-index:1;
+}
