@@ -7868,3 +7868,7 @@ html {
     }
     .brand > span { display: none; }
 }
+
+body :not(#unblurred){
+    filter: blur(2px);    
+}
