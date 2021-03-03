@@ -46,8 +46,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <th align="left">ISBN</th>
         </tr>
         <xsl:for-each select="library/book">
-        <!-- <xsl:sort select="year"/> -->
-        <!-- <xsl:sort select="year" order="descending"/> -->
+        <xsl:sort select="year"/>
+        <xsl:sort select="year" order="descending"/>
         <xsl:if test="year &gt; 2001">
         <tr>
             <td><xsl:value-of select="title"/></td>
@@ -61,6 +61,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </xsl:for-each>
     </table>
 </body>
-</html> -->
-</xsl:template>
+</html>
+</xsl:template> -->
 </xsl:stylesheet>
