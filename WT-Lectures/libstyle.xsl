@@ -15,6 +15,10 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:apply-templates select="author">
     <xsl:apply-templates select="price">
 </p>
+</xsl:template>
+
+
+
     <table border="1">
         <tr bgcolor="green">
             <th align="left">Title</th>
