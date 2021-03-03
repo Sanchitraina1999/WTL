@@ -18,7 +18,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 </xsl:template>
 
 <xsl:template>
-<>
+<xsl:template match="title">
+Title:<spana >
 
     <table border="1">
         <tr bgcolor="green">
