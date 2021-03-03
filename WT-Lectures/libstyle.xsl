@@ -23,12 +23,12 @@ Title:<span style="color:red">
 <xsl:value-of select="."/></span>
 <br/></xsl-template>
 <xsl:template>
-<xsl:template match="title">
+<xsl:template match="author">
 Title:<span style="color:red">
 <xsl:value-of select="."/></span>
 <br/></xsl-template>
 <xsl:template>
-<xsl:template match="title">
+<xsl:template match="price">
 Title:<span style="color:red">
 <xsl:value-of select="."/></span>
 <br/></xsl-template>
