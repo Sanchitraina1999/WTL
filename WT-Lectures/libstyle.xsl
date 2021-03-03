@@ -21,9 +21,19 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="title">
 Title:<span style="color:red">
 <xsl:value-of select="."/></span>
-<br/>>
+<br/></xsl-template>
+<xsl:template>
+<xsl:template match="title">
+Title:<span style="color:red">
+<xsl:value-of select="."/></span>
+<br/></xsl-template>
+<xsl:template>
+<xsl:template match="title">
+Title:<span style="color:red">
+<xsl:value-of select="."/></span>
+<br/></xsl-template>
 
-    <table border="1">
+    <!-- <table border="1">
         <tr bgcolor="green">
             <th align="left">Title</th>
             <th align="left">Author</th>
@@ -48,6 +58,6 @@ Title:<span style="color:red">
         </xsl:for-each>
     </table>
 </body>
-</html>
+</html> -->
 </xsl:template>
 </xsl:stylesheet>
