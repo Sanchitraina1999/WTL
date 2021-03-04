@@ -23,20 +23,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:value-of select="."/></span>
     <br/>
 </xsl-template>
-<xsl:template>
-    <xsl:template match="author">
-    Title:<span style="color:blue">
-    <xsl:value-of select="."/></span>
-    <br/>
-</xsl-template>
-<xsl:template>
-    <xsl:template match="price">
-    Title:<span style="color:green">
-    <xsl:value-of select="."/></span>
-    <br/>
-</xsl-template>
-
-    <!-- <table border="1">
+    <table border="1">
         <tr bgcolor="green">
             <th align="left">Title</th>
             <th align="left">Author</th>
@@ -62,5 +49,5 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </table>
 </body>
 </html>
-</xsl:template> -->
+</xsl:template>
 </xsl:stylesheet>
