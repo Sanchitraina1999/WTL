@@ -16,7 +16,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 </xsl:template>
 
 <xsl:template>
-    <xsl:for-each select="library/book">
+    <xsl:for-each select="faq/qa">
         <xsl:value-of select="question"/>
         <xsl:value-of select="answer"/>
     </xsl:for-each>
