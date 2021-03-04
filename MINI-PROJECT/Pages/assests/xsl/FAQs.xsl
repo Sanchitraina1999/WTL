@@ -11,8 +11,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="qa">
     <p>
         <xsl:apply-templates select="question"/>
-        <xsl:apply-templates select="author"/>
-        <xsl:apply-templates select="price"/>
+        <xsl:apply-templates select="answer"/>
     </p>
 </xsl:template>
 
@@ -22,7 +21,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:value-of select="."/></span>
     <br/>
 </xsl-template>
-    <table border="1">
         <tr bgcolor="green">
             <th align="left">Title</th>
             <th align="left">Author</th>
@@ -33,8 +31,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </tr>
         <xsl:for-each select="library/book">
         <xsl:sort select="year"/>
-        <xsl:sort select="year" order="descending"/>
-        <xsl:if test="year &gt; 2001">
         <tr>
             <td><xsl:value-of select="title"/></td>
             <td><xsl:value-of select="author"/></td>
@@ -45,7 +41,6 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </tr>
         </xsl:if>
         </xsl:for-each>
-    </table>
 </body>
 </html>
 </xsl:template>
