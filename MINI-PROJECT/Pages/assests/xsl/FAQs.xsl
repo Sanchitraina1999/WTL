@@ -20,7 +20,5 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         <xsl:value-of select="question"/>
         <xsl:value-of select="answer"/>
     </xsl:for-each>
-</body>
-</html>
 </xsl:template>
 </xsl:stylesheet>
