@@ -17,12 +17,8 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
 <xsl:template>
     <xsl:for-each select="library/book">
-        <xsl:value-of select="title"/>
+        <xsl:value-of select="question"/>
         <xsl:value-of select="author"/>
-        <xsl:value-of select="publisher"/>
-        <xsl:value-of select="price"/>
-        <xsl:value-of select="year"/>
-        <xsl:value-of select="isbn"/>
     </xsl:for-each>
 </body>
 </html>
