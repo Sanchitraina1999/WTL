@@ -18,7 +18,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template>
     <xsl:for-each select="library/book">
         <xsl:value-of select="question"/>
-        <xsl:value-of select="author"/>
+        <xsl:value-of select="answer"/>
     </xsl:for-each>
 </body>
 </html>
