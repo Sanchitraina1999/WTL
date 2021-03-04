@@ -4,14 +4,13 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
 <html>
 <body>
-    <h2>PICT Library</h2>
     <xsl:apply-template/>
 </body>
 </html>
 </xsl:template>
-<xsl:template match="book">
+<xsl:template match="qa">
     <p>
-        <xsl:apply-templates select="title"/>
+        <xsl:apply-templates select="question"/>
         <xsl:apply-templates select="author"/>
         <xsl:apply-templates select="price"/>
     </p>

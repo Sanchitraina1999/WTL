@@ -2,12 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="libstyle.xsl"?>
 <library>
     <!-- 1 -->
-    <book>
+    <qa>
         <title>Web Technologies HTML, JavaScript,PhP, Java,</title>
         <author>Ralph Moseley &amp; M.T. Savaliya</author>
         <publisher>Dreamtech Press</publisher>
         <price>499</price>
         <year>2004</year>
         <isbn>978813211763011</isbn>
-    </book>
+    </qa>
 </library>
