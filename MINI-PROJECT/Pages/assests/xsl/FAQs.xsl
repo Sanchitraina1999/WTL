@@ -12,7 +12,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <table>
         <xsl:apply-templates select="question"/>
         <xsl:apply-templates select="answer"/>
-    </p>
+    </table>
 </xsl:template>
 
 <xsl:template>
