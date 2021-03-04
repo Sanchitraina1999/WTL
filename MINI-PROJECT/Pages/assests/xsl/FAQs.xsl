@@ -30,16 +30,14 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
             <th align="left">ISBN</th>
         </tr>
         <xsl:for-each select="library/book">
-        <xsl:sort select="year"/>
-        <tr>
-            <td><xsl:value-of select="title"/></td>
-            <td><xsl:value-of select="author"/></td>
-            <td><xsl:value-of select="publisher"/></td>
-            <td><xsl:value-of select="price"/></td>
-            <td><xsl:value-of select="year"/></td>
-            <td><xsl:value-of select="isbn"/></td>
-        </tr>
-        </xsl:if>
+            <tr>
+                <td><xsl:value-of select="title"/></td>
+                <td><xsl:value-of select="author"/></td>
+                <td><xsl:value-of select="publisher"/></td>
+                <td><xsl:value-of select="price"/></td>
+                <td><xsl:value-of select="year"/></td>
+                <td><xsl:value-of select="isbn"/></td>
+            </tr>
         </xsl:for-each>
 </body>
 </html>
