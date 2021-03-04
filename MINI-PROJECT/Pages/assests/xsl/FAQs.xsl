@@ -21,23 +21,19 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <xsl:value-of select="."/></span>
     <br/>
 </xsl-template>
-        <tr bgcolor="green">
             <th align="left">Title</th>
             <th align="left">Author</th>
             <th align="left">Publisher</th>
             <th align="left">Price</th>
             <th align="left">Year</th>
             <th align="left">ISBN</th>
-        </tr>
         <xsl:for-each select="library/book">
-            <tr>
-                <td><xsl:value-of select="title"/></td>
-                <td><xsl:value-of select="author"/></td>
-                <td><xsl:value-of select="publisher"/></td>
-                <td><xsl:value-of select="price"/></td>
-                <td><xsl:value-of select="year"/></td>
-                <td><xsl:value-of select="isbn"/></td>
-            </tr>
+            <td><xsl:value-of select="title"/></td>
+            <td><xsl:value-of select="author"/></td>
+            <td><xsl:value-of select="publisher"/></td>
+            <td><xsl:value-of select="price"/></td>
+            <td><xsl:value-of select="year"/></td>
+            <td><xsl:value-of select="isbn"/></td>
         </xsl:for-each>
 </body>
 </html>
