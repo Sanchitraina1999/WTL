@@ -61,7 +61,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     <br/>
 </xsl-template>
 
-    <!-- <table border="1">
+    <table border="1">
         <tr bgcolor="green">
             <th align="left">Title</th>
             <th align="left">Author</th>
@@ -87,5 +87,5 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     </table>
 </body>
 </html>
-</xsl:template> -->
+</xsl:template>
 </xsl:stylesheet>
