@@ -30,3 +30,7 @@
 .keep-right{
     float: right;
 }
+
+button{
+    background-color: red;
+}
