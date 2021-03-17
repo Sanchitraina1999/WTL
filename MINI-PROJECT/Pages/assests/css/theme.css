@@ -2,7 +2,7 @@
     https://fonts.googleapis.com/css?family=Comfortaa:200,300,400,700
 );
 
-.navbar > ul {
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -10,11 +10,11 @@
     background-color: #333;
 }
 
-li {
+.navbar li {
     float: right;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: white;
     text-align: center;
@@ -23,6 +23,6 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+.navbar li a:hover {
     background-color: #111;
 }
