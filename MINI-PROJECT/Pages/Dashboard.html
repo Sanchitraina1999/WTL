@@ -11,37 +11,24 @@
 
 <body class="bg-light text-light">
         <a name="top"></a>
-        <header class="navbar">
-            <ul>
-              <li class="keep-left">
-                <a class="navbar-brand" href="#">
-                  <div class="brand text-danger pt-4">
-                    <h2>Meeting Room Booking System</h2>
-                  </div>
+        <header class="navbar navbar-light bg-black">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/MINI-PROJECT/Pages/LandingPage.html">
+                    <div class="brand text-danger pt-4" data-abbr="MRBS">
+                        <span>Meeting Room Booking System</span>
+                    </div>
                 </a>
-              </li>
-      
-      
-              <li class="keep-right">
-                <a href="/signup">
-                  <button class="button">
-                    <i class="fas fa-user-plus">
-                    </i>
-                    SignUp
-                  </button>
-                </a>
-              </li>
-              <li class="keep-right">
-                <a href="/MINI-PROJECT/Pages/AfterLoginPage.html">
-                  <button class="button">
-                    <i class="fas fa-sign-in-alt"></i>
-                    LogIn
-                  </button>
-                </a>
-      
-              </li>
-            </ul>
-          </header>
+                <div>
+                    Hi, ${name}
+                    <a href="/MINI-PROJECT/Pages/LandingPage.html">
+                        <button class="button">
+                            <i class="fas fa-sign-out-alt"></i>
+                            Logout
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </header>
 
         <section class="container px-auto mt-5 pt-5">
             <div class="row">
@@ -211,6 +198,7 @@
                 </div>
             </div>
         </footer>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
