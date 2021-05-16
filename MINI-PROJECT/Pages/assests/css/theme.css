@@ -52,6 +52,10 @@ button{
     color: white;
 }
 
+.row{
+    margin-left: 100px;
+}
+
 .row  div {
     width: 300px;
     display: inline-block;
