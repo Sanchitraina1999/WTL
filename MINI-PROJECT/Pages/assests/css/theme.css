@@ -29,6 +29,7 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    border-radius: 
 }
 
 .keep-left{
@@ -70,4 +71,5 @@ footer{
     background-color: #333333;
     color: white;
     border: 1px solid black;
+    border-radius: 10px;
 }
