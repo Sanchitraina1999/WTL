@@ -1,0 +1,151 @@
+@import url(
+    https://fonts.googleapis.com/css?family=Comfortaa:200,300,400,700
+);
+
+body{
+    margin: 0px;
+}
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    border: 1px solid black;
+    border-radius: 0 0 30px 30px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    border: 1px solid black;
+    border-radius: 0 10px 10px 0;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-top:5px;
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.keep-left{
+    float: left;
+    clear: both;
+}
+
+.keep-right{
+    float: right;
+}
+
+button, .btn{
+    background-color:#000000;
+	border-radius:28px;
+	border:1px solid #000000;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:17px;
+	padding:10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #292929; 
+}
+
+.btn-outline-warning{
+    border: 3px solid yellow;
+}
+
+.btn-outline-danger{
+    border: 3px solid red;
+}
+
+.btn:hover{
+    transform: scale(1.5); 
+}
+
+.text-white{
+    color: white;
+}
+
+.row{
+    margin: 15vh 10vw;
+}
+
+.row  .col {
+    width: 300px;
+    display: inline-block;
+    margin: 0  2vw;
+}
+
+footer{
+    background-color: #333333;
+    color: white;
+    border: 1px solid black;
+    border-radius: 30px 30px 0 0;
+}
+
+footer .center{
+    margin: 30px 30px 30px 30px;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+    padding: 10px 0 0 10px;
+}
+
+footer div button{
+    margin: 0 0 30px 30px;
+}
+
+footer div button:hover{
+    background-color:white;
+    color: black;
+}
+
+.text-decoration-none{
+    text-decoration: none;
+    color: rgb(92, 81, 81);
+}
+
+.text-danger{
+    color:black;
+}
+
+.text-muted{
+    color:rgb(29, 27, 27);
+}
+
+.card {
+    margin: 20px;
+    padding: 2px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border: 2px solid #434e41;
+    border-radius: 10%;
+    padding-bottom: 2%;
+}
+
+.card:hover {
+    box-shadow: 0 16px 24px 0 rgba(0,0,0,1);
+}
+
+.text-danger {
+    color:red;
+}
