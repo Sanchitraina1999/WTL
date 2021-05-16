@@ -22,10 +22,6 @@ body{
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-.navbar li a:hover {
-    background-color: #000000;
-}
 
 .keep-left{
     float: left;
