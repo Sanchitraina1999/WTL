@@ -13,7 +13,17 @@ body{
     overflow: hidden;
     background-color: #333333;
     border: 1px solid black;
-    border-radius: 1px 0 0 0;
+    border-radius: 0 10px 10px 0;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    border: 1px solid black;
+    border-radius: 0 10px 10px 0;
 }
 
 .navbar li a {
