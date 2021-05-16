@@ -28,7 +28,7 @@ body{
 
 .navbar li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -37,7 +37,8 @@ body{
 
 /* Change the link color to #111 (black) on hover */
 .navbar li a:hover {
-    color: #000000;
+    color: white;
+    background-color: black;
     display: block;
     text-align: center;
     padding: 14px 16px;
