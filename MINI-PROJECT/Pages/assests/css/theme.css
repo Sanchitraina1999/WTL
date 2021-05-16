@@ -51,3 +51,12 @@ button{
 .text-white{
     color: white;
 }
+
+.row {
+    white-space: nowrap;
+  }
+  
+  .row > div {
+    width: 300px;
+    display: inline-block;
+  }
