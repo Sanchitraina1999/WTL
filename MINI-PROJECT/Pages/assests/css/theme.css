@@ -69,4 +69,5 @@ button{
 footer{
     background-color: #333333;
     color: white;
+    border: 1px solid black;
 }
