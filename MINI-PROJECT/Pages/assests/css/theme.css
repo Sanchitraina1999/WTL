@@ -22,6 +22,14 @@ body{
     text-decoration: none;
 }
 
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+    color: #000000;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
 .keep-left{
     float: left;
