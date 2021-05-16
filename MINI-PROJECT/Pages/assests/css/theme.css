@@ -56,7 +56,7 @@ button{
     margin: 15vh 10vw;
 }
 
-.row  div {
+.row  .col {
     width: 300px;
     display: inline-block;
     margin: 0  2vw;
