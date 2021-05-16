@@ -29,6 +29,7 @@ body{
 
 .keep-left{
     float: left;
+    clear: both;
 }
 
 .keep-right{
