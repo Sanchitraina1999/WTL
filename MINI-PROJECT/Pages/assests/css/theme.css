@@ -61,3 +61,7 @@ button{
     display: inline-block;
     margin: 0  2vw;
 }
+
+footer{
+    background-color: rgb(219, 152, 152);
+}
