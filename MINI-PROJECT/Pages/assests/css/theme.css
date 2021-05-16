@@ -54,9 +54,9 @@ button{
 
 .row {
     white-space: nowrap;
-  }
-  
-  .row > div {
+}
+
+.row  div {
     width: 300px;
     display: inline-block;
-  }
+}
