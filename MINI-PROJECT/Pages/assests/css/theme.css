@@ -53,10 +53,11 @@ button{
 }
 
 .row{
-    margin: 20;
+    margin: 15vh 10vw;
 }
 
 .row  div {
     width: 300px;
     display: inline-block;
+    margin: 
 }
