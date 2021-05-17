@@ -5,7 +5,6 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <?xml version="1.0" encoding="UTF-8"?>
-  <?xml-stylesheet type="text/xsl" href="assets/xsl/FAQs.xsl"?>
   <link rel="stylesheet" href="assets/css/theme.css">
   <title>Meeting Room Booking System ...</title>
   <link rel="icon" href="assets/images/MBRS.png" type="image/x-icon">
@@ -34,7 +33,7 @@
 
       <li class="keep-right">
         <a href="/MINI-PROJECT/Pages/AfterLoginPage.html">
-          <button class="button">
+          <button class="button" onclick="takeName()">
             <i class="fa fa-user" aria-hidden="true"></i>
             &nbsp;Log In
           </button>
@@ -47,13 +46,12 @@
   <div class="row">
     <div class="col">
       <p>
-        <img class="lazy alignnone size-full wp-image-1879 lazy-loaded"
+        <img
           src="https://1r4z5a9gfu1acm33245gbc10-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/icon-mrb-management.svg"
           alt="Management Icon">
       </p>
       <h3>
         Effortlessly manage
-        <br class="screenonly">
         reservations and services
       </h3>
       <p>
@@ -65,13 +63,12 @@
     </div>
     <div class="col">
       <p>
-        <img class="lazy alignnone size-full wp-image-1881 lazy-loaded"
+        <img
           src="https://1r4z5a9gfu1acm33245gbc10-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/icon-mrb-mobile.svg"
           alt="Mobile Icon">
       </p>
-      <h3 class="h5">
+      <h3>
         Manage meetings
-        <br class="screenonly">
         on the move
       </h3>
       <p>
@@ -81,13 +78,12 @@
     </div>
     <div class="col">
       <p>
-        <img class="lazy alignnone size-full wp-image-1884 lazy-loaded"
+        <img
           src="https://1r4z5a9gfu1acm33245gbc10-wpengine.netdna-ssl.com/wp-content/uploads/2019/01/icon-mrb-reporting.svg"
           alt="Reporting Icon">
       </p>
-      <h3 class="h5">
+      <h3>
         Get workspace
-        <br class="screenonly">
         insight
       </h3>
       <p>
@@ -101,44 +97,7 @@
   <div id="faqs" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
-      <breakfast_menu>
-
-        <food>
-          <name>Belgian Waffles</name>
-          <price>$5.95</price>
-          <description>Two of our famous Belgian Waffles with plenty of real maple syrup</description>
-          <calories>650</calories>
-        </food>
-
-        <food>
-          <name>Strawberry Belgian Waffles</name>
-          <price>$7.95</price>
-          <description>Light Belgian waffles covered with strawberries and whipped cream</description>
-          <calories>900</calories>
-        </food>
-
-        <food>
-          <name>Berry-Berry Belgian Waffles</name>
-          <price>$8.95</price>
-          <description>Light Belgian waffles covered with an assortment of fresh berries and whipped cream</description>
-          <calories>900</calories>
-        </food>
-
-        <food>
-          <name>French Toast</name>
-          <price>$4.50</price>
-          <description>Thick slices made from our homemade sourdough bread</description>
-          <calories>600</calories>
-        </food>
-
-        <food>
-          <name>Homestyle Breakfast</name>
-          <price>$6.95</price>
-          <description>Two eggs, bacon or sausage, toast, and our ever-popular hash browns</description>
-          <calories>950</calories>
-        </food>
-
-        </breakfast_menu>
+      <iframe style="width: 100%;" SRC="assets/xml/FAQs.xml"></iframe>
     </div>
   </div>
 
@@ -146,7 +105,7 @@
   <div id="sitemap" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
-      <p>Sitemap here</p>
+      <iframe style="width: 100%;" SRC="assets/xml/Sitemap.xml"></iframe>
     </div>
   </div>
 
