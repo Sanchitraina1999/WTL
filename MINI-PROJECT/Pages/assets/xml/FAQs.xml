@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="../xsl/FAQs.xsl"?>
-<faq>
+<?xml-stylesheet type="text/xsl" href="../xsl/FAQs.xsl" ?>
+<faqs>
     <qa>
-        <question>What is my name?</question>
-        <answer>Sanchit</answer>
+        <que>Sample Question 1</que>
+        <ans>Answer to the sample question 1</ans>
     </qa>
     <qa>
-        <question>What is my name?</question>
-        <answer>Sanchit</answer>
+        <que>Sample Question 2</que>
+        <ans>Answer to the sample question 2</ans>
     </qa>
-</faq>
+</faqs>

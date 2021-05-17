@@ -23,9 +23,23 @@ span2.onclick = () => {
 }
 
 const takeName = () => {
-    var name = prompt("What is your name?");
+    console.log(nameChanger);
+    var name;
+    name = prompt("What is your name?");
     console.log(name);
-    for(var x=0;x<nameChanger.length;x++){
-        nameChanger.innerHTML = name;
+    if (name == "") {
+        alert("Name cannot be empty. Kindly retry!");
+        return;
+    }
+    if (name == null) {
+        alert("Cannot enter without name. Kindly retry!");
+        return;
+    }
+    else {
+        for (var x = 0; x < nameChanger.length; x++) {
+            console.log('reached here');
+            nameChanger.innerHTML = `Hi, ${name}!`;
+        }
+        window.location = "http://127.0.0.1:5500/MINI-PROJECT/Pages/AfterLoginPage.html";
     }
 }

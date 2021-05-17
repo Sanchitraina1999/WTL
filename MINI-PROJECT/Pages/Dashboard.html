@@ -28,7 +28,9 @@
                 </a>
             </li>
             <li class="keep-right">
-                <h5 class="text-white changeName">Hi, ${name}</h5>
+                <h3 class="text-white">
+                    Hi, ${name}!
+                </h3>
             </li>
         </ul>
     </header>
@@ -51,7 +53,7 @@
                         +91 12345 67891<br />
                     </p>
                 </div>
-                <div class="card-footer">
+                <div>
                     <a href="/edit" class="btn btn-outline-warning">Edit</a>
                     <a href="/cancel" class="btn btn-outline-danger  text-danger">Cancel</a>
                 </div>
@@ -72,7 +74,7 @@
                         +91 12345 67891<br />
                     </p>
                 </div>
-                <div class="card-footer">
+                <div>
                     <a href="/edit" class="btn btn-outline-warning">Edit</a>
                     <a href="/cancel" class="btn btn-outline-danger text-danger">Cancel</a>
                 </div>
@@ -80,112 +82,21 @@
         </div>
     </section>
 
-    <!--<section class="container px-auto mt-5 pt-5">
-        <div class="row">
-            <div class="card col-lg-3 col-md-6 col-sm-12 bg-black mx-4 my-2">
-                <div class="card-header text-danger">
-                    A1-213
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">11 Feb, 15:00 - 11 Feb, 16:00</h5>
-                    <p class="card-text text-muted">
-                        Contact Details<br />
-                    </p>
-                    <p class="card-text">
-                        Mr. ABC<br />
-                        abc@pict.edu<br />
-                        +91 12345 67891<br />
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <a href="/edit" class="btn btn-outline-warning">Edit</a>
-                    <a href="/cancel" class="btn btn-outline-danger">Cancel</a>
-                </div>
-            </div>
-            <div class="card col-lg-3 col-md-6 col-sm-12 bg-black mx-4 my-2">
-                <div class="card-header text-danger">
-                    A1-213
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">11 Feb, 15:00 - 11 Feb, 16:00</h5>
-                    <p class="card-text text-muted">
-                        Contact Details<br />
-                    </p>
-                    <p class="card-text">
-                        Mr. ABC<br />
-                        abc@pict.edu<br />
-                        +91 12345 67891<br />
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <a href="/edit" class="btn btn-outline-warning">Edit</a>
-                    <a href="/cancel" class="btn btn-outline-danger">Cancel</a>
-                </div>
-            </div>
-            <div class="card col-lg-3 col-md-6 col-sm-12 bg-black mx-4 my-2">
-                <div class="card-header text-danger">
-                    A1-213
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">11 Feb, 15:00 - 11 Feb, 16:00</h5>
-                    <p class="card-text text-muted">
-                        Contact Details<br />
-                    </p>
-                    <p class="card-text">
-                        Mr. ABC<br />
-                        abc@pict.edu<br />
-                        +91 12345 67891<br />
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <a href="/edit" class="btn btn-outline-warning">Edit</a>
-                    <a href="/cancel" class="btn btn-outline-danger">Cancel</a>
-                </div>
-            </div>
-            <div class="card col-lg-3 col-md-6 col-sm-12 bg-black mx-4 my-2">
-                <div class="card-header text-danger">
-                    A1-213
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">11 Feb, 15:00 - 11 Feb, 16:00</h5>
-                    <p class="card-text text-muted">
-                        Contact Details<br />
-                    </p>
-                    <p class="card-text">
-                        Mr. ABC<br />
-                        abc@pict.edu<br />
-                        +91 12345 67891<br />
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <a href="/edit" class="btn btn-outline-warning">Edit</a>
-                    <a href="/cancel" class="btn btn-outline-danger">Cancel</a>
-                </div>
-            </div>
-            <div class="card col-lg-3 col-md-6 col-sm-12 bg-black mx-4 my-2">
-                <div class="card-header text-danger">
-                    A1-213
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">11 Feb, 15:00 - 11 Feb, 16:00</h5>
-                    <p class="card-text text-muted">
-                        Contact Details<br />
-                    </p>
-                    <p class="card-text">
-                        Mr. ABC<br />
-                        abc@pict.edu<br />
-                        +91 12345 67891<br />
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <a href="/edit" class="btn btn-outline-warning">Edit</a>
-                    <a href="/cancel" class="btn btn-outline-danger">Cancel</a>
-                </div>
-            </div>
+    <!-- //FAQs -->
+    <div id="faqs" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe style="width: 100%;" SRC="assets/xml/FAQs.xml"></iframe>
         </div>
-    </section>
-    -->
+    </div>
 
+    <!-- //Sitemap -->
+    <div id="sitemap" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <iframe style="width: 100%;" SRC="assets/xml/Sitemap.xml"></iframe>
+        </div>
+    </div>
 
     <footer>
         <div class="center container">
@@ -193,16 +104,17 @@
             <script>document.write(new Date().getFullYear())</script>
             <br />
             <strong> Meeting Room Booking System </strong>
-            <p >Simplify all your meeting room, visitor and vendor management into one
+            <p>Simplify all your meeting room, visitor and vendor management into one
                 globally scalable,<br /> easy-to-use solution in the Cloud that gives everyone a great booking
                 experience.</p>
-            <button type="button">FAQs</button>
-            <a href="#top" style="color: white; text-decoration: none;"><button >Go to Top</button></a>
-            <button type="button" >Sitemap</button>
+            <button id="openModalFaq">FAQs</button>
+            <a href="#top" style="color: white; text-decoration: none;"><button>Go to Top</button></a>
+            <button id="openModalSitemap">Sitemap</button>
         </div>
     </footer>
 
     <script src="https://kit.fontawesome.com/f55ba5551e.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

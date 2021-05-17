@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml-stylesheet type="text/xsl" href="../xsl/Sitemap.xsl" ?>
+<urlset>
+  <url>
+    <loc>http://localhost:5500/MINI-PROJECT/tryXML/AfterLoginPage.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5500/MINI-PROJECT/tryXML/Dashboard.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5500/MINI-PROJECT/tryXML/LandingPage.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5500/MINI-PROJECT/tryXML/assets/xml/FAQs.xml</loc>
+  </url>
+  <url>
+    <loc>http://localhost:5500/MINI-PROJECT/tryXML/assets/xml/Sitemap.xml</loc>
+  </url>
+</urlset>
