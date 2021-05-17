@@ -59,7 +59,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
         </xsl:if>
         </xsl:for-each>
     </table>
-</body>
-</html>
+<!-- </body>
+</html> -->
 </xsl:template>
 </xsl:stylesheet>
