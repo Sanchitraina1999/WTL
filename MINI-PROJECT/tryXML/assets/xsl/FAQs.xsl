@@ -1,28 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
-xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<xsl:template match="/">
-    <html>
-    <body>
-        <xsl:apply-template/>
-    </body>
-    </html>
-</xsl:template>
-<xsl:template match="qa">
-    <table>
-        <xsl:apply-templates select="question"/>
-        <xsl:apply-templates select="answer"/>
-    </table>
-</xsl:template>
-
-<xsl:template>
-    <xsl:for-each select="faq/qa">
-        <xsl:value-of select="question"/>
-        <xsl:value-of select="answer"/>
-    </xsl:for-each>
-</xsl:template>
-</xsl:stylesheet>
-
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
@@ -46,19 +21,19 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
     Title:<span style="color:red">
     <xsl:value-of select="."/></span>
     <br/>
-</xsl-template>
+</xsl:template>
 <xsl:template>
     <xsl:template match="author">
     Title:<span style="color:blue">
     <xsl:value-of select="."/></span>
     <br/>
-</xsl-template>
+</xsl:template>
 <xsl:template>
     <xsl:template match="price">
     Title:<span style="color:green">
     <xsl:value-of select="."/></span>
     <br/>
-</xsl-template>
+</xsl:template>
 
     <table border="1">
         <tr bgcolor="green">
