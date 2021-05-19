@@ -22,7 +22,6 @@ span2.onclick = () => {
 }
 
 const takeName = () => {
-    console.log(document);
     var name;
     name = prompt("What is your name?");
     if (name == "") {
