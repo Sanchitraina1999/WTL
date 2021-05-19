@@ -52,5 +52,5 @@ const Logout = () => {
 }
 
 const getName = () => {
-    document.getElementById("name-here").innerHTML = "Hi, "+ localStorage.getItem("name")+" !";
+    document.getElementById("name-here").innerHTML = "Hi, " + localStorage.getItem("name") + " !";
 }
