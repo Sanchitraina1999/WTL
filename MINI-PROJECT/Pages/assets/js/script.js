@@ -47,5 +47,6 @@ const checkIfLoggedIn = () => {
 }
 
 const Logout = () => {
-    localStorage.setItem("name", name);
+    localStorage.removeItem("name");
+    alert("")
 }
