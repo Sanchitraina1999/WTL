@@ -50,3 +50,7 @@ const Logout = () => {
     localStorage.removeItem("name");
     alert("Come back again! " + name + " :) ");
 }
+
+const getName = () => {
+    document.getElementById("name-here").innerHTML = localStorage.getItem("name");
+}
