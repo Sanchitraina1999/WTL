@@ -5,6 +5,8 @@ var btn2 = document.getElementById("openModalSitemap");
 var span1 = document.getElementsByClassName("close")[0];
 var span2 = document.getElementsByClassName("close")[1];
 
+document.getElementById("name-here").innerHTML = localStorage.getItem("name");
+
 btn1.onclick = () => {
     faqs.style.display = "block";
 }
