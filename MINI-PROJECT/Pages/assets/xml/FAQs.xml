@@ -2,11 +2,15 @@
 <?xml-stylesheet type="text/xsl" href="../xsl/FAQs.xsl" ?>
 <faqs>
     <qa>
-        <que>Sample Question 1</que>
-        <ans>Answer to the sample question 1</ans>
+        <que>What does this website do?</que>
+        <ans>It helps you to book meeting rooms on the go, manage and extend your meetings.</ans>
     </qa>
     <qa>
-        <que>Sample Question 2</que>
-        <ans>Answer to the sample question 2</ans>
+        <que>How to edit my meeting details?</que>
+        <ans>You can edit your meeting details from the dashboard, after you login.</ans>
+    </qa>
+    <qa>
+        <que>Do I need to signUp with my college registration id?</que>
+        <ans>Yes, it is only possible to register with the college registration details.</ans>
     </qa>
 </faqs>

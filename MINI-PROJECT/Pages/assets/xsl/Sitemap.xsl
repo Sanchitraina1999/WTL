@@ -6,7 +6,8 @@
 <xsl:for-each select="urlset/url">
   <div style="background-color:#000000;
             color:white;
-            padding:4px">
+            padding:4px;
+            margin-top:10px;">
     <span style="font-weight:bold">
         <xsl:value-of select='loc'/>
     </span>

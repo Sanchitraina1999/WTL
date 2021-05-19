@@ -4,7 +4,6 @@ var btn1 = document.getElementById("openModalFaq");
 var btn2 = document.getElementById("openModalSitemap");
 var span1 = document.getElementsByClassName("close")[0];
 var span2 = document.getElementsByClassName("close")[1];
-var nameChanger = document.getElementsByClassName("changeName");
 
 btn1.onclick = () => {
     faqs.style.display = "block";
@@ -23,10 +22,9 @@ span2.onclick = () => {
 }
 
 const takeName = () => {
-    console.log(nameChanger);
+    console.log(document);
     var name;
     name = prompt("What is your name?");
-    console.log(name);
     if (name == "") {
         alert("Name cannot be empty. Kindly retry!");
         return;
@@ -36,10 +34,6 @@ const takeName = () => {
         return;
     }
     else {
-        for (var x = 0; x < nameChanger.length; x++) {
-            console.log('reached here');
-            nameChanger.innerHTML = `Hi, ${name}!`;
-        }
         window.location = "http://127.0.0.1:5500/MINI-PROJECT/Pages/AfterLoginPage.html";
     }
 }
