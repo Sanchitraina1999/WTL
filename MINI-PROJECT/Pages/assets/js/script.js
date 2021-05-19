@@ -41,6 +41,6 @@ const takeName = () => {
 
 const checkIfLoggedIn = () => {
     if (localStorage.getItem("name")) {
-        alert("Welcome, " + localStorage.getItem('name') + "")
+        alert("Welcome, " + localStorage.getItem('name') + "!. You are being redirected to the homepage.")
     }
 }
