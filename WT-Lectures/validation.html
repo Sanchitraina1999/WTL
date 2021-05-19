@@ -9,13 +9,23 @@
 </head>
 
 <script>
-    function validate(){
-        var name=document.f1.name.value;
-
-        if(name.length<1){
-            document.getElementById('nameloc')
-        }
-    }
+    function validate()
+{
+    if( document.myForm.email.value == "" )
+       {
+         alert( "Please provide your Email!" );
+         document.myForm.email.focus() ;
+         return false;
+       }
+    else
+       {
+         // Put extra check for data format
+         var ret = validateEmail();
+         if( ret == false )
+         {
+            return false;
+       }
+}
 </script>
 
 <body>
