@@ -42,5 +42,6 @@ const takeName = () => {
 const checkIfLoggedIn = () => {
     if (localStorage.getItem("name")) {
         alert("Welcome, " + localStorage.getItem('name') + "!. You are being redirected to the homepage.")
+        window.location = "http://127.0.0.1:5500/MINI-PROJECT/Pages/AfterLoginPage.html";
     }
 }
