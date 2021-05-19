@@ -38,3 +38,9 @@ const takeName = () => {
         window.location = "http://127.0.0.1:5500/MINI-PROJECT/Pages/AfterLoginPage.html";
     }
 }
+
+const checkIfLoggedIn = () => {
+    if(localStorage.getItem("name")){
+        ""
+    }
+}
